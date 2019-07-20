@@ -1,0 +1,13 @@
+
+server:
+  port: 9080
+
+logging.level:
+  org.springframework.web: DEBUG
+
+management:
+  endpoints:
+    web.exposure.include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

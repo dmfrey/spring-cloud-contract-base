@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: client
+
+eureka:
+  client:
+    enabled: false
+
+---
+spring:
+  profiles: cloud
+
+eureka:
+  client:
+    enabled: true
